@@ -1,0 +1,18 @@
+.header-container{
+    background-image: url(/src/imgs/header.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height:600px;
+    margin-top:-155px;
+}
+
+.header-esquerda{
+    width:20%;
+    margin-top:200px;
+    position:absolute
+}
+
+h1{
+    font-size:45px;
+    line-height: 10px;
+}
