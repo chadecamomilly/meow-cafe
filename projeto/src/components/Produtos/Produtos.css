@@ -1,0 +1,33 @@
+.container-cards{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin:0 auto;
+    align-items: stretch;
+}
+
+.card{
+    background-color: white;
+    padding:35px;
+    border-radius:30px;
+    margin:0 10px;
+    text-align:center;
+    color:white;
+    width:30%;    
+}
+
+@media (max-width:900px) {
+    .container-cards{
+        display:block;
+        justify-content: space-around;
+    }
+
+    .card{
+        margin:40px;
+        width:auto;
+    }
+
+    .card img{
+        width:90%;
+    }
+}

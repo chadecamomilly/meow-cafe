@@ -8,5 +8,16 @@
     width:100%;
     margin:0 auto;
   }
+
+  .container-geral{
+    width:80% !important;
+  }
   
+}
+
+.container-geral{
+  text-align:center;
+  margin:0 auto;
+  width:40%;
+  margin-bottom:40px;
 }

@@ -17,3 +17,36 @@
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
+
+.botao2{
+    background:white;
+    color:var(--primary-color);
+    border:none;
+    padding:10px 30px;
+    cursor:pointer;
+    transition: 0.2s;
+    font-family: 'Poppins', sans-serif;
+    border-radius:22px;
+    width:100%;
+    font-size:16px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.144);
+    border:1px solid white;
+}
+
+.botao2:hover{
+    background-color: var(--third-color);
+    color:white;
+    border:1px solid var(--fourth-color);
+}
+
+.botao3{
+    background:transparent;
+    color:var(--primary-color);
+    border:none;
+    cursor:pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    font-weight: 700;
+    padding:0;
+    border-bottom: 1px solid var(--primary-color);
+}

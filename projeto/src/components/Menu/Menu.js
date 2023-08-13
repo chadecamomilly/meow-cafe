@@ -14,7 +14,7 @@ function Menu() {
                 </div>
 
                 <div className="menu-meio">
-                    <ul class="desk">
+                    <ul className="desk">
                         <li><a href="#">Início</a></li>
                         <li><a href="#">Produtos</a></li>
                         <li><a href="#">Sobre</a></li>
@@ -23,7 +23,7 @@ function Menu() {
                 </div>
                 
                 <div className="menu-direita">
-                <ul class="desk">
+                <ul className="desk">
                     <li><a href="#">Login</a></li>
                     </ul>
                     <Button elemento="Delivery"/>

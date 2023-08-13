@@ -5,8 +5,8 @@ body {
   font-family: 'Poppins', sans-serif;
   --primary-color: #310101;
   --second-color: #F7F2E8;
-  --third-color: #e0cca2;
-  --fourth-color: #ddbd78;
+  --third-color: #C27D7A;
+  --fourth-color: #924a46;
   background:var(--second-color);
   color:var(--primary-color);
 }
