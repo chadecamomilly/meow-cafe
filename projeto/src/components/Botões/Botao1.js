@@ -1,10 +1,11 @@
 import React from 'react';
 import './Botoes.css'
 
-const Button = ({ children }) => {
+
+const Button = ({ elemento }) => {
   return (
     <button className="botoes">
-      {children}
+      {elemento}
     </button>
   );
 };

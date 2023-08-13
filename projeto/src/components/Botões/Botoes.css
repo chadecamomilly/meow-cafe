@@ -2,16 +2,18 @@
     background:var(--primary-color);
     color:white;
     border:none;
-    padding:12px 25px;
+    padding:10px 30px;
     cursor:pointer;
-    transition: 0.4s;
+    transition: 0.2s;
     font-family: 'Poppins', sans-serif;
-    border-radius:12px;
+    border-radius:22px;
     border: 1px solid var(--primary-color);
+    margin:0 0px 0 30px;
+    font-size:16px;
 }
 
 .botoes:hover{
-    background:var(--third-color);
+    background:transparent;
     color: var(--primary-color);
-    border: 1px solid var(--fourth-color);
+    border: 1px solid var(--primary-color);
 }
