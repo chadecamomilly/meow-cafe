@@ -3,7 +3,10 @@
     background-repeat: no-repeat;
     background-position: right;
     height:600px;
-    margin-top:-155px;
+    margin-top:-155px ;
+    width:90%;
+    margin: -155px auto 0px auto;
+    
 }
 
 .header-esquerda{
@@ -21,14 +24,15 @@ h1{
     .header-container{
     background-image: url(/src/imgs/header-mobile.png);
     background-repeat: no-repeat;
-    background-position: right 0% top 80%;
-    margin-left:5%;
+    background-position: right 0% top 80%; 
+    width:100%;
     }
 
     .header-esquerda{
     width:60%;
     margin-top:200px;
     position:absolute;
+    margin-left:5%;
     }
     
 }

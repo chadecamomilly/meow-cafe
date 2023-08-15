@@ -1,0 +1,44 @@
+.container-delivery{
+    width:90%;
+    margin: 0 auto;
+    border-radius:25px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+
+.container-delivery-esquerda img{
+    margin-top:-45px;
+    width:590px;
+}
+
+.container-delivery-direita{
+    width:30%;
+    padding:80px;
+    color:white;
+    text-align:right;
+    height:max-content;
+}
+
+.alinhar-botao{
+    width:50%;
+    float:right;
+}
+
+
+@media (max-width:900px) {
+    .container-delivery-esquerda{
+        display:none;
+    }
+
+    .container-delivery-direita{
+        width:100%;
+        padding:20px;
+        text-align:center;
+    }
+
+    .alinhar-botao{
+        width:100%;
+    }
+    
+  }

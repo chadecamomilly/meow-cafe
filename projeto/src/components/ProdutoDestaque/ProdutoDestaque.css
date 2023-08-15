@@ -1,0 +1,34 @@
+.container-destaques{
+    width:90%;
+    display:flex;
+    margin: 100px auto 145px auto;
+}
+
+
+.container-destaques-direita{
+   width:100%;
+   background-repeat: no-repeat;
+   background-size: contain;
+   height:450px;
+   background-position-x: 100%;
+}
+
+@media (max-width:900px) {
+    .container-destaques {
+      display: block;
+      margin: 100px auto 0px auto;
+    }
+
+     .container-destaques-direita{
+        margin-top:-25%;
+     }
+    
+  }
+
+  .preco-detalhe{
+    background-color:white;
+    color:var(--third-color);
+    padding:7px 15px;
+    width:max-content;
+    border-radius:12px;
+  }

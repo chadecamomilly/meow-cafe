@@ -46,7 +46,11 @@
     cursor:pointer;
     font-family: 'Poppins', sans-serif;
     font-size:16px;
-    font-weight: 700;
+    font-weight: 800;
     padding:0;
-    border-bottom: 1px solid var(--primary-color);
+    transition: 0.2s
+}
+
+.botao3:hover{
+    color:var(--fourth-color)
 }

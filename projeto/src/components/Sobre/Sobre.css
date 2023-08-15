@@ -1,0 +1,35 @@
+.sobre-container{
+    width:75%;
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+    height:680px;
+    align-items: center;
+}
+
+.sobre-esquerda{
+    width:40%;
+}
+
+.sobre-esquerda h1{
+    line-height: 45px;
+}
+
+.sobre-direita{
+    width:40%;
+}
+
+@media (max-width:900px) {
+    .sobre-container{
+        display: block;
+        margin:0 auto;
+    }
+
+    .sobre-esquerda{
+        width:100%;
+    }
+
+    .sobre-direita{
+        width:100%;
+    }
+}

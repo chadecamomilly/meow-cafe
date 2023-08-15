@@ -1,9 +1,8 @@
 .container-cards{
     display:flex;
     justify-content: space-between;
-    width:100%;
+    width:90%;
     margin:0 auto;
-    align-items: stretch;
 }
 
 .card{
@@ -13,7 +12,12 @@
     margin:0 10px;
     text-align:center;
     color:white;
-    width:30%;    
+    width:25%;    
+}
+
+.card img{
+    text-align:center;
+    width:100%;
 }
 
 @media (max-width:900px) {
@@ -23,7 +27,7 @@
     }
 
     .card{
-        margin:40px;
+        margin:10px;
         width:auto;
     }
 

@@ -3,6 +3,8 @@
     justify-content:space-between;
     align-items: center;
     z-index:2;
+    width:90%;
+    margin: 0 auto;
 }
 
 

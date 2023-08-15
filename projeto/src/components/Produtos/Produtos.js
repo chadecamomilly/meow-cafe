@@ -1,15 +1,15 @@
 import Botao2 from '../Botões/Botao2';
 import './Produtos.css';
-import TitulosSecoes from '../Títulos/TitulosSecoes';
 import Botao3 from '../Botões/Botao3';
+import fundo from '../../imgs/fundo-secao1.png'
 
 function Produtos() {
   return (
-    <div>
+    <div className="fundo-secao" style={{ backgroundImage: `url(${fundo})` }}>
       <div className="container-geral">
-        <TitulosSecoes titulo="Drinks" />
-        <TitulosSecoes descricao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text." />
-        <Botao3 elemento="Veja todos >" />
+        <h1>Drinks</h1>
+        <div class="divisor-meio"></div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>        <Botao3 elemento="Veja todos >" />
       </div>
       <div className="container-cards">
         <div className="card" style={{ backgroundImage: "linear-gradient(to top, #F6C7C5, #C27D7A)" }}>
