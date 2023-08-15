@@ -36,7 +36,7 @@
 @media (max-width:900px) {
     .container-infos{
         display: block;
-        margin: -50px auto;
+        margin: 40px auto;
     }
 
     .container-infos-esquerda{
@@ -52,6 +52,10 @@
         border-top-right-radius: 0px;
     }
 
+    .container-infos-direita h1{
+        font-size:22px;
+    }
+
     .container-infos-meio img{
         width:100%;
         margin-top:-100px;
@@ -65,3 +69,6 @@
   .icone{
     margin-right:10px;
   }
+
+
+ 

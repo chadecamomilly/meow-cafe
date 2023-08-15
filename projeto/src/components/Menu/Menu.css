@@ -71,7 +71,11 @@
     }
 
     .menu-esquerda, .menu-esquerda p{
-        font-size:16px;
+        font-size:15px;
+    }
+
+    .menu-esquerda img{
+        width:70px;
     }
 
     .menu-container{

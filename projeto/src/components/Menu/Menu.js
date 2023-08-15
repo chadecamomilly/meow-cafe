@@ -1,7 +1,6 @@
 import logo from '../../imgs/logo.png'
 import './Menu.css'
 import Button from '../Botões/Botao1'
-import './MobileMenu'
 
 
 function Menu() {

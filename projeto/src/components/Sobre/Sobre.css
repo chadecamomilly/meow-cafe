@@ -3,8 +3,8 @@
     display: flex;
     margin:0 auto;
     justify-content: space-between;
-    height:680px;
     align-items: center;
+    padding-bottom:100px;
 }
 
 .sobre-esquerda{
@@ -21,9 +21,12 @@
 
 @media (max-width:900px) {
     .sobre-container{
+        width:auto;
         display: block;
         margin:0 auto;
+        padding:0 10%;
     }
+
 
     .sobre-esquerda{
         width:100%;
