@@ -1,16 +1,19 @@
 import logo from '../../imgs/logo.png'
 import './Menu.css'
-import React from 'react'
-import Button from '../Botões/Botao1';
+import Button from '../Botões/Botao1'
+import './MobileMenu'
+
 
 function Menu() {
+
+
     return (
         <div>
             <div className="menu-container">
-                
+
                 <div className="menu-esquerda">
                     <img src={logo} alt="logo" className="logo" width="130px" />
-                    <p>Meow Café</p>              
+                    <p>Meow Café</p>
                 </div>
 
                 <div className="menu-meio">
@@ -20,16 +23,18 @@ function Menu() {
                         <li><a href="#">Sobre</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
+
                 </div>
-                
+
                 <div className="menu-direita">
-                <ul className="desk">
-                    <li><a href="#">Login</a></li>
+                    <ul className="desk">
+                        <li><a href="#">Login</a></li>
                     </ul>
-                    <Button elemento="Delivery"/>
+                    <Button elemento="Delivery" />
                     <ul className="trigger-menu">
-                    <li>III</li>
+                    <li><i class="fa-solid fa-bars"></i></li>
                     </ul>
+
                 </div>
             </div>
         </div>

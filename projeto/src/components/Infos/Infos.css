@@ -36,7 +36,7 @@
 @media (max-width:900px) {
     .container-infos{
         display: block;
-        margin: -120px auto;
+        margin: -50px auto;
     }
 
     .container-infos-esquerda{
@@ -47,6 +47,9 @@
 
     .container-infos-direita{
         width:auto;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 0px;
     }
 
     .container-infos-meio img{
